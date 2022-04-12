@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.View
+{
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+}
+
+.InputContainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.InputContainer>button
+{
+  background-color: #6ba4a2;
+  font-size: calc(10px + 2vmin);
+  margin: 5px;
+  width: 100px;
+}
+
+.Table{
+  padding: 15px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+.TableRow
+{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  border-bottom: 5px solid rgb(91, 91, 96);
+}
+.AgeCol
+{
+  flex: 1;
+}
+.PictureCol
+{
+  flex: 1;
+}
+.PictureCol>img{
+  border: 0.4rem solid #333;
+    border-radius: 100%;
+}
+.NameCol
+{
+  flex: 1;
+}
+.LastNCol
+{
+  flex: 1;
+}
+.EmailCol
+{
+  flex: 2;
+}
+.PhoneCol
+{
+  flex: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
